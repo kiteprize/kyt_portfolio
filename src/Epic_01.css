@@ -1,0 +1,57 @@
+:root{
+  --vh: 100%;  
+}
+
+body{
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.mobile-App-header{
+  background-color: #121212;
+  height: calc(var(--vh)*100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Suit_EB";
+  line-height: calc(12px + 6vmin);
+  font-size: calc(4px + 4vmin);
+  color: white;
+}
+
+.App-header {
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Suit_EB";
+  line-height: calc(12px + 6vmin);
+  font-size: calc(4px + 4vmin);
+  color: white;
+}
+
+.IntroduceLine{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Suit_EB";
+}
+
+.Underline{
+  width: 70vmin;
+  height: calc(0.5vmin);
+  margin:1px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+@font-face{
+  font-family: "Suit_EB";
+  src: url("./fonts/SUIT-ExtraBold.ttf");
+}
