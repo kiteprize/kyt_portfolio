@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/kyt_portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/kyt_portfolio/static/js/main.017ada61.js",
-    "static/js/787.b3aa7842.chunk.js": "/kyt_portfolio/static/js/787.b3aa7842.chunk.js",
-    "static/media/logo.svg": "/kyt_portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/kyt_portfolio/static/css/main.492e791c.css",
+    "main.js": "/kyt_portfolio/static/js/main.1e2deec8.js",
+    "static/media/SUIT-ExtraBold.ttf": "/kyt_portfolio/static/media/SUIT-ExtraBold.4b9446cd55d415b4c913.ttf",
     "index.html": "/kyt_portfolio/index.html",
-    "main.073c9b0a.css.map": "/kyt_portfolio/static/css/main.073c9b0a.css.map",
-    "main.017ada61.js.map": "/kyt_portfolio/static/js/main.017ada61.js.map",
-    "787.b3aa7842.chunk.js.map": "/kyt_portfolio/static/js/787.b3aa7842.chunk.js.map"
+    "main.492e791c.css.map": "/kyt_portfolio/static/css/main.492e791c.css.map",
+    "main.1e2deec8.js.map": "/kyt_portfolio/static/js/main.1e2deec8.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.017ada61.js"
+    "static/css/main.492e791c.css",
+    "static/js/main.1e2deec8.js"
   ]
 }
