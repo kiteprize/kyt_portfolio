@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+
+.Maintext{
+    margin-top: 5.1282vh;
+    margin-bottom: 2.05vh;
+    padding: 0;
+    line-height: calc(4px + 8.42105vmin);
+    text-align: center;
+    font-family: "Suit_EB";
+    font-size: calc(4px + 8.42105vmin);
+    color: white;
+}
+
+.background{
+    background-color: #121212;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Browser-Skillbox{
+    width: 30vmin;
+    height: 30vmin;
+    margin: 10vmin;
+    justify-content: center;
+    background-color: #fcfcfc;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.Mobile-Skillbox{
+    width: 79vw;
+    height: 100%;
+    margin: 3.077vh 10.5vw;
+    padding-bottom: 5.2vmin;
+    background-color: #fcfcfc;
+    text-align: center;
+    display:inline-block;
+    border-radius: 15px;
+}
+
+.Mobile-Skillbox-Header{
+    margin: 2.5vh;
+    font-size: 6.8vmin;
+    padding: 0;
+    text-align: center;
+    color:black;
+    font-family: "Suit_B";
+}
+
+.Header-Underline{
+    width: 68.5vw;
+    height: 0.25vh;
+    margin: 0px 5vw;
+    background-color: #D9D9D9;
+}
+
+.Mobile-Skillbox-icon{
+    width: 30.5vmin;
+    height: 30.5vmin;
+    margin: 5.2vmin 2.63vmin 0;
+}
+
+@font-face{
+    font-family: "Suit_EB";
+    src: url("./fonts/SUIT-ExtraBold.ttf");
+}
+
+@font-face{
+    font-family: "Suit_B";
+    src: url("./fonts/SUIT-Bold.ttf");
+}
+
+  
