@@ -9,7 +9,7 @@ body{
     line-height: calc(4px + 8.42105vmin);
     text-align: center;
     font-family: "Suit_EB";
-    font-size: calc(4px + 8.42105vmin);
+    font-size: calc(4px + 7.36vmin);
     color: white;
 }
 
@@ -44,7 +44,7 @@ body{
 
 .Mobile-Skillbox-Header{
     margin: 2.5vh;
-    font-size: 6.8vmin;
+    font-size: 6.3vmin;
     padding: 0;
     text-align: center;
     color:black;
