@@ -2,7 +2,60 @@ body{
     margin: 0;
 }
 
-.Maintext{
+
+.background{
+    background-color: #121212;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Browser-Maintext{
+    margin-top: 40px;
+    margin-bottom: 16px;
+    padding: 0;
+    text-align: center;
+    font-family: "Suit_EB";
+    font-size: 32px;
+    color: white;
+}
+
+.Browser-Skillbox{
+    width: 300px;
+    height: 100%;
+    margin: 24px 40px 24px 40px;
+    padding-bottom: 32px;
+    background-color: #fcfcfc;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.Browser-Skillbox-Header{
+    margin: 20px 68px;
+    font-size: 20px;
+    padding: 0;
+    text-align: center;
+    color:black;
+    font-family: "Suit_B";
+}
+
+.Browser-Skillbox-Header-UnderLine{
+    width: 260px;
+    height: 2px;
+    margin: 0px 20px;
+    background-color: #D9D9D9;
+}
+
+.Browser-Skillbox-icon{
+    width: 116px;
+    height: 116px;
+    margin: 20px 10px 0;
+}
+
+.Mobile-Maintext{
     margin-top: 5.1282vh;
     margin-bottom: 2.05vh;
     padding: 0;
@@ -11,24 +64,6 @@ body{
     font-family: "Suit_EB";
     font-size: calc(4px + 7.36vmin);
     color: white;
-}
-
-.background{
-    background-color: #121212;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.Browser-Skillbox{
-    width: 30vmin;
-    height: 30vmin;
-    margin: 10vmin;
-    justify-content: center;
-    background-color: #fcfcfc;
-    display: inline-block;
-    border-radius: 20px;
 }
 
 .Mobile-Skillbox{
@@ -51,7 +86,7 @@ body{
     font-family: "Suit_B";
 }
 
-.Header-Underline{
+.Mobile-Skillbox-Header-UnderLine{
     width: 68.5vw;
     height: 0.25vh;
     margin: 0px 5vw;
