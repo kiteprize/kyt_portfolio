@@ -37,7 +37,7 @@ body{
     padding-top: 24px;
     padding-bottom: 20px;
     font-size: 20px;
-    margin: 0px;
+    margin-bottom: 4px;
     text-align: center;
     color:white;
     background-color: #333333;
@@ -75,7 +75,7 @@ body{
 }
 
 .Mobile-Skillbox-Header{
-    margin: 0;
+    margin-bottom: 1vw;
     font-size: 5.2vw;
     padding: 6.33vw 0px 5.2vw;
     text-align: center;
@@ -108,3 +108,5 @@ body{
     font-family: "Suit_B";
     src: url("./fonts/SUIT-Bold.ttf");
 }
+
+  
