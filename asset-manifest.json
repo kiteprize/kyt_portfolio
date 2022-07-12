@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kyt_portfolio/static/css/main.d2b58eee.css",
+    "main.css": "/kyt_portfolio/static/css/main.24e694bf.css",
     "main.js": "/kyt_portfolio/static/js/main.fb409a3f.js",
     "static/media/SUIT-Bold.ttf": "/kyt_portfolio/static/media/SUIT-Bold.0af82d5a6d485bfb66dc.ttf",
     "static/media/SUIT-ExtraBold.ttf": "/kyt_portfolio/static/media/SUIT-ExtraBold.4b9446cd55d415b4c913.ttf",
     "index.html": "/kyt_portfolio/index.html",
-    "main.d2b58eee.css.map": "/kyt_portfolio/static/css/main.d2b58eee.css.map",
+    "main.24e694bf.css.map": "/kyt_portfolio/static/css/main.24e694bf.css.map",
     "main.fb409a3f.js.map": "/kyt_portfolio/static/js/main.fb409a3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2b58eee.css",
+    "static/css/main.24e694bf.css",
     "static/js/main.fb409a3f.js"
   ]
 }
