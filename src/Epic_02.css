@@ -34,20 +34,16 @@ body{
 }
 
 .Browser-Skillbox-Header{
-    margin-top: 24px;
-    margin-bottom: 20px;
+    padding-top: 24px;
+    padding-bottom: 20px;
     font-size: 20px;
-    padding: 0;
+    margin: 0px;
     text-align: center;
-    color:black;
+    color:white;
+    background-color: #333333;
     font-family: "Suit_B";
-}
-
-.Browser-Skillbox-Header-UnderLine{
-    width: 236px;
-    height: 2px;
-    margin: 0px 20px 4px;
-    background-color: #D9D9D9;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .Browser-Skillbox-icon{
@@ -79,12 +75,15 @@ body{
 }
 
 .Mobile-Skillbox-Header{
-    margin: 6.3vw 0px 5.2vw;
+    margin: 0;
     font-size: 5.2vw;
-    padding: 0;
+    padding: 6.33vw 0px 5.2vw;
     text-align: center;
-    color:black;
+    color:white;
     font-family: "Suit_B";
+    background-color: #333333;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
 }
 
 .Mobile-Skillbox-Header-UnderLine{
@@ -109,5 +108,3 @@ body{
     font-family: "Suit_B";
     src: url("./fonts/SUIT-Bold.ttf");
 }
-
-  
