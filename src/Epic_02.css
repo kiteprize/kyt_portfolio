@@ -13,8 +13,8 @@ body{
 }
 
 .Browser-Maintext{
-    margin-top: 40px;
-    margin-bottom: 16px;
+    margin-top: 56px;
+    margin-bottom: 32px;
     padding: 0;
     text-align: center;
     font-family: "Suit_EB";
@@ -23,10 +23,10 @@ body{
 }
 
 .Browser-Skillbox{
-    width: 300px;
+    width: 276px;
     height: 100%;
     margin: 24px 40px 24px 40px;
-    padding-bottom: 32px;
+    padding-bottom: 28px;
     background-color: #fcfcfc;
     text-align: center;
     display: inline-block;
@@ -34,7 +34,8 @@ body{
 }
 
 .Browser-Skillbox-Header{
-    margin: 20px 68px;
+    margin-top: 24px;
+    margin-bottom: 20px;
     font-size: 20px;
     padding: 0;
     text-align: center;
@@ -43,21 +44,21 @@ body{
 }
 
 .Browser-Skillbox-Header-UnderLine{
-    width: 260px;
+    width: 236px;
     height: 2px;
-    margin: 0px 20px;
+    margin: 0px 20px 4px;
     background-color: #D9D9D9;
 }
 
 .Browser-Skillbox-icon{
-    width: 116px;
-    height: 116px;
+    width: 100px;
+    height: 100px;
     margin: 20px 10px 0;
 }
 
 .Mobile-Maintext{
-    margin-top: 5.1282vh;
-    margin-bottom: 2.05vh;
+    margin-top: 7.17vh;
+    margin-bottom: 4.1vh;
     padding: 0;
     line-height: calc(4px + 8.42105vmin);
     text-align: center;
@@ -67,10 +68,10 @@ body{
 }
 
 .Mobile-Skillbox{
-    width: 79vw;
+    width: 72.63vw;
     height: 100%;
-    margin: 3.077vh 10.5vw;
-    padding-bottom: 5.2vmin;
+    margin: 3.077vh;
+    padding-bottom: 7.3vw;
     background-color: #fcfcfc;
     text-align: center;
     display:inline-block;
@@ -78,8 +79,8 @@ body{
 }
 
 .Mobile-Skillbox-Header{
-    margin: 2.5vh;
-    font-size: 6.3vmin;
+    margin: 6.3vw 0px 5.2vw;
+    font-size: 5.2vw;
     padding: 0;
     text-align: center;
     color:black;
@@ -87,15 +88,15 @@ body{
 }
 
 .Mobile-Skillbox-Header-UnderLine{
-    width: 68.5vw;
+    width: 62.1vw;
     height: 0.25vh;
-    margin: 0px 5vw;
+    margin: 0px 5vw 1vw;
     background-color: #D9D9D9;
 }
 
 .Mobile-Skillbox-icon{
-    width: 30.5vmin;
-    height: 30.5vmin;
+    width: 26.3vw;
+    height: 26.3vw;
     margin: 5.2vmin 2.63vmin 0;
 }
 
