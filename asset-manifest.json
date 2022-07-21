@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/kyt_portfoilo/static/css/main.f98e998c.css",
-    "main.js": "/kyt_portfoilo/static/js/main.f34d46ad.js",
-    "static/media/SUIT-Medium.ttf": "/kyt_portfoilo/static/media/SUIT-Medium.668c72ca39dc580970ee.ttf",
-    "static/media/SUIT-SemiBold.ttf": "/kyt_portfoilo/static/media/SUIT-SemiBold.5bf11d17db49ba7828eb.ttf",
-    "static/media/SUIT-Bold.ttf": "/kyt_portfoilo/static/media/SUIT-Bold.0af82d5a6d485bfb66dc.ttf",
-    "static/media/SUIT-ExtraBold.ttf": "/kyt_portfoilo/static/media/SUIT-ExtraBold.4b9446cd55d415b4c913.ttf",
-    "static/media/slick.svg": "/kyt_portfoilo/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/kyt_portfoilo/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/kyt_portfoilo/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/kyt_portfoilo/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/kyt_portfoilo/index.html",
-    "main.f98e998c.css.map": "/kyt_portfoilo/static/css/main.f98e998c.css.map",
-    "main.f34d46ad.js.map": "/kyt_portfoilo/static/js/main.f34d46ad.js.map"
+    "main.css": "/kyt_portfolio/static/css/main.d0bf3224.css",
+    "main.js": "/kyt_portfolio/static/js/main.f34d46ad.js",
+    "static/media/SUIT-Medium.ttf": "/kyt_portfolio/static/media/SUIT-Medium.668c72ca39dc580970ee.ttf",
+    "static/media/SUIT-SemiBold.ttf": "/kyt_portfolio/static/media/SUIT-SemiBold.5bf11d17db49ba7828eb.ttf",
+    "static/media/SUIT-Bold.ttf": "/kyt_portfolio/static/media/SUIT-Bold.0af82d5a6d485bfb66dc.ttf",
+    "static/media/SUIT-ExtraBold.ttf": "/kyt_portfolio/static/media/SUIT-ExtraBold.4b9446cd55d415b4c913.ttf",
+    "static/media/slick.svg": "/kyt_portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/kyt_portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/kyt_portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/kyt_portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/kyt_portfolio/index.html",
+    "main.d0bf3224.css.map": "/kyt_portfolio/static/css/main.d0bf3224.css.map",
+    "main.f34d46ad.js.map": "/kyt_portfolio/static/js/main.f34d46ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.f98e998c.css",
+    "static/css/main.d0bf3224.css",
     "static/js/main.f34d46ad.js"
   ]
 }
