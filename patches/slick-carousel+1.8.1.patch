@@ -1,0 +1,67 @@
+diff --git a/node_modules/slick-carousel/slick/slick-theme.css b/node_modules/slick-carousel/slick/slick-theme.css
+index 1232fca..0af49cb 100644
+--- a/node_modules/slick-carousel/slick/slick-theme.css
++++ b/node_modules/slick-carousel/slick/slick-theme.css
+@@ -140,8 +140,8 @@
+ 
+     display: inline-block;
+ 
+-    width: 20px;
+-    height: 20px;
++    width: 6px;
++    height: 6px;
+     margin: 0 5px;
+     padding: 0;
+ 
+@@ -154,8 +154,8 @@
+ 
+     display: block;
+ 
+-    width: 20px;
+-    height: 20px;
++    width: 6px;
++    height: 6px;
+     padding: 5px;
+ 
+     cursor: pointer;
+@@ -185,20 +185,22 @@
+     top: 0;
+     left: 0;
+ 
+-    width: 20px;
+-    height: 20px;
++    width: 4px;
++    height: 4px;
+ 
+     content: '•';
+     text-align: center;
+ 
+-    opacity: .25;
+-    color: black;
++    border-radius: 50%;
++    background-color: #606060;
+ 
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+ }
+ .slick-dots li.slick-active button:before
+ {
+-    opacity: .75;
+-    color: black;
++    width: 6px;
++    height: 6px;
++    background-color: white;
++    border-radius: 50%;
+ }
+diff --git a/node_modules/slick-carousel/slick/slick.css b/node_modules/slick-carousel/slick/slick.css
+index 57477e8..0e767ef 100644
+--- a/node_modules/slick-carousel/slick/slick.css
++++ b/node_modules/slick-carousel/slick/slick.css
+@@ -2,7 +2,6 @@
+ .slick-slider
+ {
+     position: relative;
+-
+     display: block;
+     box-sizing: border-box;
+ 
