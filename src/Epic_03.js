@@ -65,22 +65,19 @@ function App(){
                     <div className="browser-container">
                         <Slider {...settings}>
                             <BrowserCard 
-                                img = "portfolio_thumbnail/portfolio.png" 
+                                img = "Card_1_thumbnail/portfolio.png" 
                                 Tilte = "개인 포트폴리오 사이트" 
                                 SubTitle = "React를 사용한 반응형 포트폴리오 페이지"
-                                openDrawer = {openDrawer}
                             />
                             <BrowserCard 
-                                img = "portfolio_thumbnail/portfolio.png" 
+                                img = "Card_1_thumbnail/portfolio.png" 
                                 Tilte = "개인 포트폴리오 사이트" 
                                 SubTitle = "React를 사용한 반응형 포트폴리오 페이지"
-                                openDrawer = {openDrawer}
                             />
                             <BrowserCard 
-                                img = "portfolio_thumbnail/portfolio.png" 
+                                img = "Card_1_thumbnail/portfolio.png" 
                                 Tilte = "개인 포트폴리오 사이트" 
                                 SubTitle = "React를 사용한 반응형 포트폴리오 페이지"
-                                openDrawer = {openDrawer}
                             />
                         </Slider>
                     </div>
@@ -94,19 +91,19 @@ function App(){
                     <div className="mobile-container">
                         <Slider {...settings}>
                             <MobileCard 
-                            img = "portfolio_thumbnail/portfolio.png" 
+                            img = "Card_1_thumbnail/portfolio.png" 
                             Tilte = "개인 포트폴리오 사이트" 
                             SubTitle = "React를 사용한 반응형 포트폴리오 페이지"
                             openDrawer = {openDrawer}
                             />
                             <MobileCard 
-                            img = "portfolio_thumbnail/portfolio.png" 
+                            img = "Card_1_thumbnail/portfolio.png" 
                             Tilte = "개인 포트폴리오 사이트" 
                             SubTitle = "React를 사용한 반응형 포트폴리오 페이지"
                             openDrawer = {openDrawer}
                             />
                             <MobileCard 
-                            img = "portfolio_thumbnail/portfolio.png" 
+                            img = "Card_1_thumbnail/portfolio.png" 
                             Tilte = "개인 포트폴리오 사이트" 
                             SubTitle = "React를 사용한 반응형 포트폴리오 페이지"
                             openDrawer = {openDrawer}

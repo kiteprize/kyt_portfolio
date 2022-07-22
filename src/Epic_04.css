@@ -1,0 +1,85 @@
+.Mobile-MainTitle{
+    text-align: center;
+    font-family: "Suit_B";
+    font-size: 8.421vw;
+    margin: 4.102vh auto;
+    color: white;
+}
+
+.Mobile-container{
+    width: 100%;
+    height: fit-content;
+}
+
+.Mobile-SubTitle{
+    font-family: "Suit_B";
+    font-size: 5.263vw;
+    margin: 10.526vw;
+    margin-bottom: 2.051vh;
+    color: white;
+}
+
+.Mobile-TextLine{
+    font-family: "Suit_R";
+    font-size: 4.21vw;
+    margin: 0 10.526vw 10.526vw;
+    color: white;
+}
+
+.Mobile-SplitLine{
+    width: 78.947vw;
+    height: 2px;
+    margin: 0px auto;
+    align-self: center;
+    background-color: #383838;
+}
+
+.Mobile-Navigator{
+    width: 100%;
+    height: 9.487vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.Mobile-Navigator-Area{
+    width: auto;
+    height: inherit;
+    display: flex;
+}
+
+.Mobile-Navigator-Middlebar{
+    width: 2px;
+    height: 5.641vh;
+    margin: 2.307vh 4.21vw auto;
+    background-color: #383838;
+}
+
+.Mobile-Navigator-Arrow{
+    width: 7.368vw;
+    height: 7.368vw;
+    margin: 2.82vh 2.105vw auto 3.157vw;
+}
+
+.Mobile-Navigator-TextLine{
+    width: calc((66.32vw - 2px)/2);
+    height: auto;
+    vertical-align: auto;
+}
+
+.Mobile-Navigator-TextLine-label{
+    width: inherit;
+    margin: 2.051vh 0 0.256vh 0;
+    font-family: "Suit_B";
+    font-size: 3.157vw;   
+    color: #878987; 
+}
+
+.Mobile-Navigator-TextLine-Title{
+    width: inherit;
+    margin: 0;
+    font-family: "Suit_B";
+    font-size: 4.21vw;   
+    color: white; 
+}

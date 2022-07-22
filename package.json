@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kiteprize.github.io/kyt_portfoilo/",
+  "homepage": "https://kiteprize.github.io/kyt_portfolio/",
   "name": "kyt_portfolio",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^4.0.0",
     "patch-package": "^6.4.7",
     "react": "^16.14.0",
     "react-bottom-drawer": "^0.1.1",

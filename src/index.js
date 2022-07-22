@@ -8,7 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Epic01 />
     <Epic02 />
-    <Epic03/>
+    <Epic03 />
   </React.StrictMode>
-  , document.getElementById('root')
+  ,document.getElementById('root')
 );
