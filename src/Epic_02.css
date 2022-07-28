@@ -1,15 +1,11 @@
-.background{
-    background-color: #121212;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+.browser-container{
+    width: 100%;
+    height: calc(100vh - 156px);
 }
 
 .Browser-Maintext{
     margin-top: 56px;
-    margin-bottom: 32px;
+    margin-bottom: 56px;
     padding: 0;
     text-align: center;
     font-family: "Suit_EB";
@@ -17,90 +13,221 @@
     color: white;
 }
 
-.Browser-Skillbox{
-    width: 276px;
-    height: 100%;
-    margin: 24px 40px 24px 40px;
-    padding-bottom: 28px;
-    background-color: #fcfcfc;
-    text-align: center;
-    display: inline-block;
-    border-radius: 15px;
+.Browser-Card{
+    height: 494px;
+    width: 276px!important;
+    border-radius: 16px;
+    margin: 0 calc((100% - 276px)/2);
+    position: relative;
+    background-color: #FCFCFC;
+    align-items: center;
+    align-self: center;
 }
 
-.Browser-Skillbox-Header{
-    padding-top: 24px;
-    padding-bottom: 20px;
-    font-size: 20px;
-    margin-bottom: 4px;
-    text-align: center;
-    color:white;
-    background-color: #333333;
-    font-family: "Suit_B";
+.Browser-Card-Image{
+    height: 358px;
+    width: 272px;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
+    border-color:#d9d9d9;
+    border-style: solid;
+    display: block;
+    border-width: 2px;
 }
 
-.Browser-Skillbox-icon{
-    width: 100px;
-    height: 100px;
-    margin: 20px 10px 0;
+.Browser-Card-Title{
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+    font-family: "Suit_B";
+    font-size: 26px;
+    color:black;
 }
+
+.Browser-Card-SubTitle{
+    margin-left: 16px;
+    text-align: left;
+    font-family: "Suit_SB";
+    font-size: 12px;
+    color: #626262;
+}
+
+.Browser-Card-Detail{
+    width: 96px;
+    height: 24px;
+    right: 12px;
+    bottom: 8px;
+    border-radius: 14px;
+    color:white;
+    font-family: "Suit_M";
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #343434;
+    position: absolute;
+    transition-duration: 0.4s;
+    user-select: none;
+}
+
+.Browser-Card-Detail:active{
+    animation-fill-mode: forwards;
+    background-color: #c8c8c8;
+    transition: 0.2s;
+}
+
+.Browser__drawer{
+    height: 100%!important;
+    width: 380px !important;
+    left: calc(50% - 190px) !important;
+    background: #212121 !important;
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+    overflow: auto !important;
+}
+
+.Browser__drawer::-webkit-scrollbar{
+    display: none;
+}
+
+.Browser__drawer__content{
+    margin: auto !important;
+    padding: 58px 0 0 !important;
+    max-height: fit-content !important;
+}
+
+.Browser__drawer__handle{
+    width: 44px !important;
+    height: 4px !important;
+    margin-top: 12px !important;
+    background: #383838 !important;
+    position: fixed !important;
+    top: 0px !important;
+}
+
+.Browser__drawer__handle-wrapper{
+    background-color: inherit !important;
+    border-bottom: 2px solid #383838 !important;
+    border-top-left-radius: 14px !important;
+    border-top-right-radius: 14px !important;
+    width: inherit !important;
+    height: 56px !important;
+    padding: 0px !important;
+    position: fixed !important;
+    z-index: 11 !important;
+}
+
+.mobile-container{
+    width: 100%;
+    height: 81.54vh;
+}
+
 
 .Mobile-Maintext{
-    margin-top: 7.17vh;
-    margin-bottom: 4.1vh;
+    margin: 7.18vh 0px;
     padding: 0;
-    line-height: calc(4px + 8.42105vmin);
     text-align: center;
     font-family: "Suit_EB";
-    font-size: calc(4px + 7.36vmin);
+    font-size: 4.1vh;
     color: white;
 }
 
-.Mobile-Skillbox{
-    width: 72.63vw;
-    height: 100%;
-    margin: 3.077vh;
-    padding-bottom: 7.3vw;
-    background-color: #fcfcfc;
-    text-align: center;
-    display:inline-block;
-    border-radius: 15px;
+.Mobile-Card{
+    height: 63.33vh;
+    width: 72.631vw!important;
+    border-radius: 16px;
+    margin: 0 13.6845vw;
+    position: relative;
+    background-color: #FCFCFC;
+    align-items: center;
 }
 
-.Mobile-Skillbox-Header{
-    margin-bottom: 1vw;
-    font-size: 5.2vw;
-    padding: 6.33vw 0px 5.2vw;
-    text-align: center;
-    color:white;
-    font-family: "Suit_B";
-    background-color: #333333;
+.Mobile-Card-Image{
+    height: 45.9vh;
+    width: calc(72.631vw - 4px);
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
+    border-color:#d9d9d9;
+    border-style: solid;
+    display: block;
+    border-width: 2px;
 }
 
-.Mobile-Skillbox-Header-UnderLine{
-    width: 62.1vw;
-    height: 0.25vh;
-    margin: 0px 5vw 1vw;
-    background-color: #D9D9D9;
-}
-
-.Mobile-Skillbox-icon{
-    width: 26.3vw;
-    height: 26.3vw;
-    margin: 5.2vmin 2.63vmin 0;
-}
-
-@font-face{
-    font-family: "Suit_EB";
-    src: url("./fonts/SUIT-ExtraBold.ttf");
-}
-
-@font-face{
+.Mobile-Card-Title{
+    margin-top: 2.05vh;
+    margin-left: 4.21vw;
+    margin-bottom: 1.025vh;
+    text-align: left;
     font-family: "Suit_B";
-    src: url("./fonts/SUIT-Bold.ttf");
+    font-size: 6.3vw;
+    color:black;
 }
- 
+
+.Mobile-Card-SubTitle{
+    margin-left: 4.21vw;
+    text-align: left;
+    font-family: "Suit_SB";
+    font-size: 3.15vw;
+    color: #626262;
+}
+
+.Mobile-Card-Detail{
+    width: 25.26vw;
+    height: 3.07vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #343434;
+    position: absolute;
+    color:white;
+    font-family: "Suit_M";
+    font-size: 1.53vh;
+    right: 3.15vw;
+    bottom: 1.02vh;
+    border-radius: 14px;
+    transition-duration: 0.4s;
+    user-select: none;
+}
+
+.Mobile-Card-Detail:active{
+    animation-fill-mode: forwards;
+    background-color: #c8c8c8;
+    transition: 0.2s;
+}
+
+.drawer{
+    height: calc(var(--vh)*100) !important;
+    background: #212121 !important;
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+    overflow: auto !important;
+}
+
+.drawer::-webkit-scrollbar{
+    display: none;
+}
+
+.drawer__content{
+    padding: calc(7.43vh + 2px) 0 0 !important;
+    max-height: fit-content !important;
+}
+
+.drawer__handle{
+    width: 44px !important;
+    height: 4px !important;
+    margin-top: 1.53vh;
+    background: #383838 !important;
+}
+
+.drawer__handle-wrapper{
+    background-color: inherit !important;
+    border-bottom: 2px solid #383838 !important;
+    border-top-left-radius: 14px !important;
+    border-top-right-radius: 14px !important;
+    height: 7.43vh !important;
+    width: inherit !important;
+    padding: 0px !important;
+    position: fixed !important;
+    z-index: 11 !important;
+}

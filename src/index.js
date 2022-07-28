@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Epic01 from './Epic_01';
-import Epic02 from './Epic_02';
-import Epic03 from './Epic_03';
+import App from './App'
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Epic01 />
-    <Epic02 />
-    <Epic03 />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/*' element={<App/>}/> 
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
   ,document.getElementById('root')
 );

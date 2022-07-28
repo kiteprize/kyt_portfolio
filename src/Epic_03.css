@@ -1,185 +1,176 @@
-.browser-container{
-    width: 100%;
-    height: calc(100vh - 156px);
-}
-
-.Browser-Maintext{
-    margin-top: 56px;
-    margin-bottom: 56px;
-    padding: 0;
+.Browser-MainTitle{
     text-align: center;
-    font-family: "Suit_EB";
-    font-size: 32px;
+    font-family: "Suit_B";
+    font-size: 28px;
+    margin: 32px auto;
     color: white;
 }
 
-.Browser-Card{
-    height: 494px;
-    width: 276px!important;
-    border-radius: 16px;
-    margin: 0 calc((100% - 276px)/2);
-    position: relative;
-    background-color: #FCFCFC;
-    align-items: center;
+.Browser-container{
+    width: 100%;
+    height: fit-content;
+}
+
+.Browser-SubTitle{
+    font-family: "Suit_B";
+    font-size: 20px;
+    margin: 40px;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.Browser-TextLine{
+    font-family: "Suit_R";
+    font-size: 16px;
+    margin: 0 40px 40px;
+    color: white;
+}
+
+.Browser-SplitLine{
+    width: 300px;
+    height: 2px;
+    margin: 0px auto;
     align-self: center;
+    background-color: #383838;
 }
 
-.Browser-Card-Image{
-    height: 358px;
-    width: 272px;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-    border-color:#d9d9d9;
-    border-style: solid;
-    display: block;
-    border-width: 2px;
-}
-
-.Browser-Card-Title{
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-bottom: 8px;
-    text-align: left;
-    font-family: "Suit_B";
-    font-size: 26px;
-    color:black;
-}
-
-.Browser-Card-SubTitle{
-    margin-left: 16px;
-    text-align: left;
-    font-family: "Suit_SB";
-    font-size: 12px;
-    color: #626262;
-}
-
-.Browser-Card-Detail{
-    width: 96px;
-    height: 24px;
-    right: 12px;
-    bottom: 8px;
-    border-radius: 14px;
-    color:white;
-    font-family: "Suit_M";
-    font-size: 12px;
+.Browser-Navigator{
+    width: 100%;
+    height: 74px;
+    margin: 0px;
+    padding: 0px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: #343434;
-    position: absolute;
-    transition-duration: 0.4s;
+}
+
+.Browser-Navigator-Area{
+    width: auto;
+    height: inherit;
+    display: flex;
     user-select: none;
 }
 
-.Browser-Card-Detail:active{
-    animation-fill-mode: forwards;
-    background-color: #c8c8c8;
-    transition: 0.2s;
+.Browser-Navigator-Middlebar{
+    height: 44px;
+    width: 2px;
+    padding: 0px;
+    margin: 18px 16px 12px;
+    background-color: #383838;
 }
 
-.mobile-container{
-    width: 100%;
-    height: 81.54vh;
+.Browser-Navigator-Arrow{
+    width: 28px;
+    height: 28px;
+    margin: 22px 8px 24px 12px;
 }
 
+.Browser-Navigator-TextLine{
+    width: 125px;
+    height: auto;
+    vertical-align: auto;
+}
 
-.Mobile-Maintext{
-    margin: 7.18vh 0px;
-    padding: 0;
+.Browser-Navigator-TextLine-label{
+    width: inherit;
+    margin: 16px 0 2px 0;
+    font-family: "Suit_B";
+    font-size: 12px;   
+    color: #878987; 
+}
+
+.Browser-Navigator-TextLine-Title{
+    width: inherit;
+    margin: 0;
+    font-family: "Suit_B";
+    font-size: 16px;   
+    color: white; 
+}
+
+/*  */
+
+.Mobile-MainTitle{
     text-align: center;
-    font-family: "Suit_EB";
-    font-size: 4.1vh;
+    font-family: "Suit_B";
+    font-size: 7.368vw;
+    margin: 4.102vh auto;
     color: white;
 }
 
-.Mobile-Card{
-    height: 63.33vh;
-    width: 72.631vw!important;
-    border-radius: 16px;
-    margin: 0 13.6845vw;
-    position: relative;
-    background-color: #FCFCFC;
-    align-items: center;
+.Mobile-container{
+    width: 100%;
+    height: fit-content;
 }
 
-.Mobile-Card-Image{
-    height: 45.9vh;
-    width: calc(72.631vw - 4px);
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-    border-color:#d9d9d9;
-    border-style: solid;
-    display: block;
-    border-width: 2px;
-}
-
-.Mobile-Card-Title{
-    margin-top: 2.05vh;
-    margin-left: 4.21vw;
-    margin-bottom: 1.025vh;
-    text-align: left;
+.Mobile-SubTitle{
     font-family: "Suit_B";
-    font-size: 6.3vw;
-    color:black;
+    font-size: 5.263vw;
+    margin: 10.526vw;
+    margin-bottom: 2.051vh;
+    color: white;
 }
 
-.Mobile-Card-SubTitle{
-    margin-left: 4.21vw;
-    text-align: left;
-    font-family: "Suit_SB";
-    font-size: 3.15vw;
-    color: #626262;
+.Mobile-TextLine{
+    font-family: "Suit_R";
+    font-size: 4.21vw;
+    margin: 0 10.526vw 10.526vw;
+    color: white;
 }
 
-.Mobile-Card-Detail{
-    width: 25.26vw;
-    height: 3.07vh;
+.Mobile-SplitLine{
+    width: 78.947vw;
+    height: 2px;
+    margin: 0px auto;
+    align-self: center;
+    background-color: #383838;
+}
+
+.Mobile-Navigator{
+    width: 100%;
+    height: 9.487vh;
+    margin: 0px;
+    padding: 0px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: #343434;
-    position: absolute;
-    color:white;
-    font-family: "Suit_M";
-    font-size: 1.53vh;
-    right: 3.15vw;
-    bottom: 1.02vh;
-    border-radius: 14px;
-    transition-duration: 0.4s;
+}
+
+.Mobile-Navigator-Area{
+    width: auto;
+    height: inherit;
+    display: flex;
     user-select: none;
 }
 
-.Mobile-Card-Detail:active{
-    animation-fill-mode: forwards;
-    background-color: #c8c8c8;
-    transition: 0.2s;
+.Mobile-Navigator-Middlebar{
+    width: 2px;
+    height: 5.641vh;
+    margin: 2.307vh 4.21vw auto;
+    background-color: #383838;
 }
 
-.drawer{
-    height: calc(var(--vh)*100) !important;
-    background: #212121 !important;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    overflow: auto !important;
+.Mobile-Navigator-Arrow{
+    width: 7.368vw;
+    height: 7.368vw;
+    margin: 2.82vh 2.105vw auto 3.157vw;
 }
 
-.drawer__content{
-    padding: 0px !important;
-    max-height: fit-content !important;
+.Mobile-Navigator-TextLine{
+    width: calc((66.32vw - 2px)/2);
+    height: auto;
+    vertical-align: auto;
 }
 
-.drawer__handle{
-    width: 44px !important;
-    height: 4px !important;
-    margin-top: 1.53vh;
-    background: #383838 !important;
+.Mobile-Navigator-TextLine-label{
+    width: inherit;
+    margin: 2.051vh 0 0.256vh 0;
+    font-family: "Suit_B";
+    font-size: 3.157vw;   
+    color: #878987; 
 }
 
-.drawer__handle-wrapper{
-    border-bottom: 2px solid #383838 !important;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-    width: calc(100% - 4px) !important;
-    height: 7.43vh !important;
-    padding: 0px !important;
+.Mobile-Navigator-TextLine-Title{
+    width: inherit;
+    margin: 0;
+    font-family: "Suit_B";
+    font-size: 4.21vw;   
+    color: white; 
 }

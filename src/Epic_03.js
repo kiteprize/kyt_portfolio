@@ -1,50 +1,11 @@
 import React from "react";
-import Drawer from "react-bottom-drawer";
 import {BrowserView, MobileView} from 'react-device-detect';
 import Slider from "react-slick";
-import Epic04 from "./Epic_04"
 import "slick-carousel/slick/slick.css";
 import 'slick-carousel/slick/slick-theme.css';
 import './Epic_03.css';
 
-function BrowserCard(props){
-    return(
-        <div className="Browser-Card">
-            <img className="Browser-Card-Image" src={props.img} alt="PortFolio_MainPage"/>
-            <div className="Browser-Card-Title">
-                {props.Tilte}
-            </div>
-            <div className="Browser-Card-SubTitle">
-                {props.SubTitle}
-            </div>
-            <div className="Browser-Card-Detail" onClick={props.openDrawer}>
-                자세히 보기
-            </div>
-        </div>
-    );
-}
-
-function MobileCard(props){
-    return(
-        <div className="Mobile-Card">
-            <img className="Mobile-Card-Image" src={props.img} alt="Thumbnail"/>
-            <div className="Mobile-Card-Title">
-                {props.Tilte}
-            </div>
-            <div className="Mobile-Card-SubTitle">
-                {props.SubTitle}
-            </div>
-            <div className="Mobile-Card-Detail" onClick={props.openDrawer}>
-                자세히 보기
-            </div>
-        </div>
-    );
-}
-
 function App(){
-    const [isVisible, setIsVisible] = React.useState(false);
-    const openDrawer = React.useCallback(() => setIsVisible(true), []);
-    const closeDrawer = React.useCallback(() => setIsVisible(false), []);  
     const settings ={
         arrows: false,
         dots: true,
@@ -54,74 +15,143 @@ function App(){
         slidesToScroll: 1,
         dragable: true,
     };
-
     return(
         <div>
             <BrowserView>
-                <div className="background">
-                    <div className="Browser-Maintext">
-                        PROJECTS
-                    </div>
-                    <div className="browser-container">
-                        <Slider {...settings}>
-                            <BrowserCard 
-                                img = "Card_1_thumbnail/portfolio.png" 
-                                Tilte = "개인 포트폴리오 사이트" 
-                                SubTitle = "React를 사용한 반응형 포트폴리오 페이지"
-                            />
-                            <BrowserCard 
-                                img = "Card_1_thumbnail/portfolio.png" 
-                                Tilte = "개인 포트폴리오 사이트" 
-                                SubTitle = "React를 사용한 반응형 포트폴리오 페이지"
-                            />
-                            <BrowserCard 
-                                img = "Card_1_thumbnail/portfolio.png" 
-                                Tilte = "개인 포트폴리오 사이트" 
-                                SubTitle = "React를 사용한 반응형 포트폴리오 페이지"
-                            />
-                        </Slider>
-                    </div>
+                <div className="Browser-MainTitle">
+                    개발
                 </div>
+                <div className="Browser-container">
+                    <Slider {...settings}>
+                        <img src="Card_1_1_pics/portfolio1.png" alt="pics"/>
+                        <img src="Card_1_1_pics/portfolio2.png" alt="pics"/>
+                        <img src="Card_1_1_pics/portfolio3.png" alt="pics"/>
+                    </Slider>
+                </div>
+                <div className="Browser-SubTitle">
+                    부제목
+                </div>
+                <div className="Browser-TextLine">
+                    이곳은 해당 프로젝트의 개발 과정과 프로젝트를 마무리하며 느꼈던 감정들을 적어놓은 공간입니다.
+                    <br/>
+                    <br/>
+                    현재 프로젝트가 미완성 된 상태이고 들어갈 내용을 생각하지 않아 더미데이터 형식으로 이와 같은 내용이 첨부되었습니다.
+                </div>
+                <div className="Browser-SplitLine"/>
+                <div className="Browser-MainTitle">
+                    기획
+                </div>
+                <div className="Browser-container">
+                    <Slider {...settings}>
+                        <img src="Card_1_1_pics/portfolio1.png" alt="pics"/>
+                        <img src="Card_1_1_pics/portfolio2.png" alt="pics"/>
+                        <img src="Card_1_1_pics/portfolio3.png" alt="pics"/>
+                    </Slider>
+                </div>
+                <div className="Browser-SubTitle">
+                    부제목
+                </div>
+                <div className="Browser-TextLine">
+                    이곳은 해당 프로젝트의 개발 과정과 프로젝트를 마무리하며 느꼈던 감정들을 적어놓은 공간입니다.
+                    <br/>
+                    <br/>
+                    현재 프로젝트가 미완성 된 상태이고 들어갈 내용을 생각하지 않아 더미데이터 형식으로 이와 같은 내용이 첨부되었습니다.
+                </div>
+                {/* <div className="Browser-SplitLine" style={{width:"356px"}}/>
+                <div className="Browser-Navigator">
+                    <div className="Browser-Navigator-Area">
+                        <img className="Browser-Navigator-Arrow" src="Icons/Arrow.png" alt="Arrow"/>
+                        <div className="Browser-Navigator-TextLine">
+                            <div className="Browser-Navigator-TextLine-label">
+                                이전 글
+                            </div>
+                            <div className="Browser-Navigator-TextLine-Title">
+                                개인 포트폴리오...
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Browser-Navigator-Middlebar"/>
+                    <div className="Browser-Navigator-Area">
+                        <div className="Browser-Navigator-TextLine">
+                            <div className="Browser-Navigator-TextLine-label" style={{textAlign: "right"}}>
+                                다음 글
+                            </div>
+                            <div className="Browser-Navigator-TextLine-Title" style={{textAlign: "right"}}>
+                                개인 포트폴리오...
+                            </div>
+                        </div>
+                        <img className="Browser-Navigator-Arrow" src="Icons/Arrow.png" alt="Arrow" style={{transform: "scaleX(-1)"}}/>
+                    </div>
+                </div> */}
             </BrowserView>
             <MobileView>
-                <div className="background">
-                    <div className="Mobile-Maintext">
-                        PROJECTS
-                    </div>
-                    <div className="mobile-container">
-                        <Slider {...settings}>
-                            <MobileCard 
-                            img = "Card_1_thumbnail/portfolio.png" 
-                            Tilte = "개인 포트폴리오 사이트" 
-                            SubTitle = "React를 사용한 반응형 포트폴리오 페이지"
-                            openDrawer = {openDrawer}
-                            />
-                            <MobileCard 
-                            img = "Card_1_thumbnail/portfolio.png" 
-                            Tilte = "개인 포트폴리오 사이트" 
-                            SubTitle = "React를 사용한 반응형 포트폴리오 페이지"
-                            openDrawer = {openDrawer}
-                            />
-                            <MobileCard 
-                            img = "Card_1_thumbnail/portfolio.png" 
-                            Tilte = "개인 포트폴리오 사이트" 
-                            SubTitle = "React를 사용한 반응형 포트폴리오 페이지"
-                            openDrawer = {openDrawer}
-                            />
-                        </Slider>
-                        <Drawer
-                                duration={400}
-                                hideScrollbars={true}
-                                onClose={closeDrawer}
-                                isVisible={isVisible}
-                                className={"drawer"}
-                            >
-                            <Epic04 />
-                        </Drawer>
-                    </div>
+                <div className="Mobile-MainTitle">
+                    개발
                 </div>
+                <div className="Mobile-container">
+                    <Slider {...settings}>
+                        <img src="Card_1_1_pics/portfolio1.png" alt="pics"/>
+                        <img src="Card_1_1_pics/portfolio2.png" alt="pics"/>
+                        <img src="Card_1_1_pics/portfolio3.png" alt="pics"/>
+                    </Slider>
+                </div>
+                <div className="Mobile-SubTitle">
+                    부제목
+                </div>
+                <div className="Mobile-TextLine">
+                    이곳은 해당 프로젝트의 개발 과정과 프로젝트를 마무리하며 느꼈던 감정들을 적어놓은 공간입니다.
+                    <br/>
+                    <br/>
+                    현재 프로젝트가 미완성 된 상태이고 들어갈 내용을 생각하지 않아 더미데이터 형식으로 이와 같은 내용이 첨부되었습니다.
+                </div>
+                <div className="Mobile-SplitLine"/>
+                <div className="Mobile-MainTitle">
+                    기획
+                </div>
+                <div className="Mobile-container">
+                    <Slider {...settings}>
+                        <img src="Card_1_1_pics/portfolio1.png" alt="pics"/>
+                        <img src="Card_1_1_pics/portfolio2.png" alt="pics"/>
+                        <img src="Card_1_1_pics/portfolio3.png" alt="pics"/>
+                    </Slider>
+                </div>
+                <div className="Mobile-SubTitle">
+                    부제목
+                </div>
+                <div className="Mobile-TextLine">
+                    이곳은 해당 프로젝트의 개발 과정과 프로젝트를 마무리하며 느꼈던 감정들을 적어놓은 공간입니다.
+                    <br/>
+                    <br/>
+                    현재 프로젝트가 미완성 된 상태이고 들어갈 내용을 생각하지 않아 더미데이터 형식으로 이와 같은 내용이 첨부되었습니다.
+                </div>
+                {/* <div className="Mobile-SplitLine" style={{width:"93.684vw"}}/>
+                <div className="Mobile-Navigator">
+                    <div className="Mobile-Navigator-Area">
+                        <img className="Mobile-Navigator-Arrow" src="Icons/Arrow.png" alt="Arrow"/>
+                        <div className="Mobile-Navigator-TextLine">
+                            <div className="Mobile-Navigator-TextLine-label">
+                                이전 글
+                            </div>
+                            <div className="Mobile-Navigator-TextLine-Title">
+                                개인 포트폴리오...
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Mobile-Navigator-Middlebar"/>
+                    <div className="Mobile-Navigator-Area">
+                        <div className="Mobile-Navigator-TextLine">
+                            <div className="Mobile-Navigator-TextLine-label" style={{textAlign: "right"}}>
+                                다음 글
+                            </div>
+                            <div className="Mobile-Navigator-TextLine-Title" style={{textAlign: "right"}}>
+                                개인 포트폴리오...
+                            </div>
+                        </div>
+                        <img className="Mobile-Navigator-Arrow" src="Icons/Arrow.png" alt="Arrow" style={{transform: "scaleX(-1)"}}/>
+                    </div>
+                </div> */}
             </MobileView>
         </div>
-    )
+    );
 }
 export default App;

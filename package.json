@@ -1,5 +1,4 @@
 {
-  "homepage": "https://kiteprize.github.io/kyt_portfolio/",
   "name": "kyt_portfolio",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +12,7 @@
     "react-bottom-drawer": "^0.1.1",
     "react-device-detect": "^2.2.2",
     "react-dom": "^16.14.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "react-text-transition": "^3.0.2",

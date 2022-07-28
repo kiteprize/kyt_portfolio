@@ -52,3 +52,23 @@ body{
   font-family: "Suit_EB";
   src: url("./fonts/SUIT-ExtraBold.ttf");
 }
+
+@font-face{
+  font-family: "Suit_B";
+  src: url("./fonts/SUIT-Bold.ttf");
+}
+
+@font-face{
+  font-family: "Suit_SB";
+  src: url("./fonts/SUIT-SemiBold.ttf");
+} 
+
+@font-face{
+  font-family: "Suit_M";
+  src: url("./fonts/SUIT-Medium.ttf");
+} 
+
+@font-face{
+  font-family: "Suit_R";
+  src: url("./fonts/SUIT-Regular.ttf");
+} 
