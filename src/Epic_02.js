@@ -18,7 +18,7 @@ function BrowserCard(props){
             <div className="Browser-Card-SubTitle">
                 {props.SubTitle}
             </div>
-            <Link to={"/hys_portfolio/detail"} style={{textDecoration:"none"}} className="Browser-Card-Detail" onClick={props.openDrawer}>
+            <Link to={"/kyt_portfolio/detail"} style={{textDecoration:"none"}} className="Browser-Card-Detail" onClick={props.openDrawer}>
                 자세히 보기
             </Link>
         </div>
@@ -35,7 +35,7 @@ function MobileCard(props){
             <div className="Mobile-Card-SubTitle">
                 {props.SubTitle}
             </div>
-            <Link to={"/hys_portfolio/detail"} style={{textDecoration:"none"}} className="Mobile-Card-Detail" onClick={props.openDrawer}>
+            <Link to={"/kyt_portfolio/detail"} style={{textDecoration:"none"}} className="Mobile-Card-Detail" onClick={props.openDrawer}>
                 자세히 보기
             </Link>
         </div>

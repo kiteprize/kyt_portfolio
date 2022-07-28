@@ -69,7 +69,7 @@ function App(){
                             CONTACT
                         </div>
                         <div className="Mobile-Icon-Area-Splitline"/>
-                        <a href="mailto:dustkd4294@naver.com">
+                        <a href="mailto:kyt01030069291@gmail.com">
                             <img className="Mobile-Contact-icon" src="Icons/Email.png" alt="Email"/>
                         </a>
                     </div>
