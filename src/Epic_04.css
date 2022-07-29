@@ -83,7 +83,7 @@
 
 .Browser-Hyperlink-Text{
     height: 16px;
-    margin: 34px auto 36px;
+    margin: calc(100vh - 696px) auto 36px;
     text-align: center;
     text-decoration: none;
     font-size: 12px;
@@ -169,7 +169,7 @@
 
 .Mobile-Hyperlink-Text{
     height: 2.051vh;
-    margin: 4.102vh auto 4.615vh;
+    margin: 10.769vh auto 4.615vh;
     text-align: center;
     text-decoration: none;
     font-size: 1.538vh;

@@ -11,18 +11,10 @@
     height: fit-content;
 }
 
-.Browser-SubTitle{
-    font-family: "Suit_B";
-    font-size: 20px;
-    margin: 40px;
-    margin-bottom: 16px;
-    color: white;
-}
-
 .Browser-TextLine{
     font-family: "Suit_R";
     font-size: 16px;
-    margin: 0 40px 40px;
+    margin: 40px;
     color: white;
 }
 
@@ -32,58 +24,6 @@
     margin: 0px auto;
     align-self: center;
     background-color: #383838;
-}
-
-.Browser-Navigator{
-    width: 100%;
-    height: 74px;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
-}
-
-.Browser-Navigator-Area{
-    width: auto;
-    height: inherit;
-    display: flex;
-    user-select: none;
-}
-
-.Browser-Navigator-Middlebar{
-    height: 44px;
-    width: 2px;
-    padding: 0px;
-    margin: 18px 16px 12px;
-    background-color: #383838;
-}
-
-.Browser-Navigator-Arrow{
-    width: 28px;
-    height: 28px;
-    margin: 22px 8px 24px 12px;
-}
-
-.Browser-Navigator-TextLine{
-    width: 125px;
-    height: auto;
-    vertical-align: auto;
-}
-
-.Browser-Navigator-TextLine-label{
-    width: inherit;
-    margin: 16px 0 2px 0;
-    font-family: "Suit_B";
-    font-size: 12px;   
-    color: #878987; 
-}
-
-.Browser-Navigator-TextLine-Title{
-    width: inherit;
-    margin: 0;
-    font-family: "Suit_B";
-    font-size: 16px;   
-    color: white; 
 }
 
 /*  */
@@ -112,7 +52,7 @@
 .Mobile-TextLine{
     font-family: "Suit_R";
     font-size: 4.21vw;
-    margin: 0 10.526vw 10.526vw;
+    margin: 10.526vw;
     color: white;
 }
 
@@ -122,55 +62,4 @@
     margin: 0px auto;
     align-self: center;
     background-color: #383838;
-}
-
-.Mobile-Navigator{
-    width: 100%;
-    height: 9.487vh;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
-}
-
-.Mobile-Navigator-Area{
-    width: auto;
-    height: inherit;
-    display: flex;
-    user-select: none;
-}
-
-.Mobile-Navigator-Middlebar{
-    width: 2px;
-    height: 5.641vh;
-    margin: 2.307vh 4.21vw auto;
-    background-color: #383838;
-}
-
-.Mobile-Navigator-Arrow{
-    width: 7.368vw;
-    height: 7.368vw;
-    margin: 2.82vh 2.105vw auto 3.157vw;
-}
-
-.Mobile-Navigator-TextLine{
-    width: calc((66.32vw - 2px)/2);
-    height: auto;
-    vertical-align: auto;
-}
-
-.Mobile-Navigator-TextLine-label{
-    width: inherit;
-    margin: 2.051vh 0 0.256vh 0;
-    font-family: "Suit_B";
-    font-size: 3.157vw;   
-    color: #878987; 
-}
-
-.Mobile-Navigator-TextLine-Title{
-    width: inherit;
-    margin: 0;
-    font-family: "Suit_B";
-    font-size: 4.21vw;   
-    color: white; 
 }
