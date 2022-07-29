@@ -25,7 +25,7 @@ function App(){
                     <Slider {...settings}>
                         <img src="Card_1/Card_1_1_pics/pic1.png" alt="pics"/>
                         <img src="Card_1/Card_1_1_pics/pic2.png" alt="pics"/>
-                        <img src="Card_1/Card_1_1_pics/pic4.png" alt="pics"/>
+                        <img src="Card_1/Card_1_1_pics/pic3.png" alt="pics"/>
                         <img src="Card_1/Card_1_1_pics/pic4.png" alt="pics"/>
                     </Slider>
                 </div>
@@ -68,7 +68,7 @@ function App(){
                     <Slider {...settings}>
                         <img src="Card_1/Card_1_1_pics/pic1.png" alt="pics"/>
                         <img src="Card_1/Card_1_1_pics/pic2.png" alt="pics"/>
-                        <img src="Card_1/Card_1_1_pics/pic4.png" alt="pics"/>
+                        <img src="Card_1/Card_1_1_pics/pic3.png" alt="pics"/>
                         <img src="Card_1/Card_1_1_pics/pic4.png" alt="pics"/>
                     </Slider>
                 </div>

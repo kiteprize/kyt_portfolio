@@ -91,6 +91,12 @@
     color: white;
 }
 
+@media all and (max-height: 696px) {
+    .Browser-Hyperlink-Text {
+        margin-top: 0px;
+    }
+}
+
 /* -------- */
 
 .Mobile-Maintext{
