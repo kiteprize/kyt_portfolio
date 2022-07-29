@@ -48,7 +48,6 @@ function App(){
                     <Slider {...settings}>
                         <img src="Card_1/Card_1_2_pics/pic1.png" alt="pics"/>
                         <img src="Card_1/Card_1_2_pics/pic2.png" alt="pics"/>
-                        <img src="Card_1/Card_1_2_pics/pic3.png" alt="pics"/>
                     </Slider>
                 </div>
                 <div className="Browser-TextLine">
@@ -92,7 +91,6 @@ function App(){
                     <Slider {...settings}>
                         <img src="Card_1/Card_1_2_pics/pic1.png" alt="pics"/>
                         <img src="Card_1/Card_1_2_pics/pic2.png" alt="pics"/>
-                        <img src="Card_1/Card_1_2_pics/pic3.png" alt="pics"/>
                     </Slider>
                 </div>
                 <div className="Mobile-TextLine">
